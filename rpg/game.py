@@ -110,10 +110,29 @@ class stage:
         self.istraesure = traesure_percentage >= randint(1,100)
         pass
 
-    # def set_monster(self):
-    #     monsr
+    def set_monster(self):
+        print()
 
+class monster:
+    def __init__(self, lv) -> None:
+        self.attack
+        self.defense
+        self.hp
+        self.max_hp
+        self.gold
+        self.xp
+        self.lv = lv
+        pass
 
+    def set_stat(self, attack = None, defense = None, hp = None, max_hp = None, gold = None, xp = None, lv = None):
+        print("ㅗ")
+    
+
+class slime(monster):
+    def __init__(self, lv) -> None:
+        super().__init__(lv)
+
+    
     
 # ===========================
 
@@ -216,4 +235,4 @@ async def sendfr(titlef, descriptionf, colorf):
 async def sendf(ctx, msg):
     return await ctx.send(msg)
 
-bot.run('MTA1NDIwNDI1Nzk2NTk3MzU2NQ.GvEZMs.D-4bI90UqETtLiWEgS5U-25-mqYDsk4TOM8p74') #test_dojin
+bot.run('MTA1NDIwNDI1Nzk2NTk3MzU2NQ.GoXYii.s-D_6Ey3cXsORrEVCYZK8HFFeEg9_rqxopmLjU') #test_dojin
