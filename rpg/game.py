@@ -110,8 +110,8 @@ class stage:
         self.istraesure = traesure_percentage >= randint(1,100)
         pass
 
-    def set_monster(self):
-        
+    # def set_monster(self):
+    #     monsr
 
 
     
